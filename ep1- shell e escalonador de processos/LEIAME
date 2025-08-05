@@ -1,0 +1,33 @@
+# EP1 - Escalonadores de Processos
+
+## Identificação
+
+Nome: Renan Ryu Kajihara
+NUSP: 14605762
+
+## Como compilar os programas:
+
+Para compilar ambos os programas, é possível usar o comando:
+
+``` make ```
+
+Para compilar apenas o programa uspsh.c, é possível usar o comando:
+
+```make uspsh```
+
+Para compilar apenas o programa ep1.c, é possível usar o comando:
+
+```make ep1```
+
+## Como executar os programas:
+
+Para executar o shell uspsh.c, é possível usar o comando:
+
+```./uspsh```
+
+Para executar o programa ep1.c, é possível usar o comando:
+
+```./ep1 parametro1 parametro2 parametro3```
+
+em que parametro1 é o escalonador que será simulado (1 para o FCFS, 2 para o SRTN e 3 para o escalonador com prioridade),
+parametro2 é o arquivo de entrada e parametro3 é o arquivo de saída.

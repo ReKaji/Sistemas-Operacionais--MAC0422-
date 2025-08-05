@@ -1,0 +1,27 @@
+# EP3 - Algoritmos para Alocação de Memória
+
+## Identificação
+
+Nome: Renan Ryu Kajihara
+NUSP: 14605762
+
+## Como compilar o programa:
+
+Para compilar o ep3.c, é possível usar qualquer um dos  dois comandos:
+
+``` make ```
+
+```make ep3```
+
+## Como executar os programas:
+
+Para executar o programa ep3.c, é possível usar o comando:
+
+```./ep3 n <nome do arquivo PGM de entrada> <nome do arquivo de trace> <nome do arquivo PGM de saída>```
+
+em que n representa o algoritmo de alocação:
+
+- n = 1: First Fit;
+- n = 2: Next Fit;
+- n = 3: Best Fit;
+- n = 4: Worst Fit.

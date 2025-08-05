@@ -1,0 +1,27 @@
+# EP2 - Simulação corrida
+
+## Identificação
+
+Nome: Renan Ryu Kajihara
+NUSP: 14605762
+
+## Como compilar o programa:
+
+Para compilar o ep2.c, é possível usar qualquer um dos  dois comandos:
+
+``` make ```
+
+```make ep2```
+
+## Como executar os programas:
+
+Para executar o programa ep2.c, é possível usar o comando:
+
+```./ep2 d k <i|e> -debug```
+
+em que:
+
+- d representa o comprimento da pista.
+- k representa o número de ciclistas.
+- o terceiro argumento (<i|e>) representa a abordagem utilizada (i para ingênua, e para eficiente).
+- o quarto argumento (-debug) é opcional. Ele informa, a cada 60ms simulados, o status de cada posicão da pista na saída de erro.
