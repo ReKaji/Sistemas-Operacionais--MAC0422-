@@ -7,14 +7,14 @@ O objetivo das descrições abaixo é explicar de forma objetiva o que cada exer
 
 ## Sumário
 
-- `ep1- shell e escalonador de processos/` — implementação de um shell e exercícios de controle de processos.
+- `ep1  - Escalonador de processos/` — implementação de um shell e exercícios de controle de processos.
 - `ep2- Programação paralela com multithreads/` — exercícios com `pthread`, sincronização e paralelismo.
-- `ep3- simulador de escalonadores de processo/` — simulador com métricas de escalonamento e traces de alocação.
+- `ep3 - Algoritmos para Alocação de Memória/` — simulador com métricas de escalonamento e traces de alocação.
 - `ep4- bash script e avaliação de servidores de echo concorrentes/` — scripts de benchmark e avaliação de servidores concorrentes.
 
 ---
 
-## `ep1- shell e escalonador de processos/`
+## `ep1  - Escalonador de processos/`
 
 ### O que faz
 Implementa um shell simples em C e exercícios complementares ligados ao escalonamento e controle de processos. O trabalho foca em parsing de linha de comando, criação de processos com `fork`/`exec`, uso de `wait`/`waitpid`, tratamento de sinais (por exemplo `SIGCHLD`) e modelos básicos de escalonamento/execução de tarefas.
@@ -31,7 +31,7 @@ Trabalhos de baixo nível com processos e sinais demonstram domínio de chamadas
 Na pasta do exercício:
 
 ```bash
-cd "ep1- shell e escalonador de processos"
+cd "ep1  - Escalonador de processos"
 make
 # executável (nome pode variar: ver Makefile) — exemplo:
 ./uspsh
@@ -62,7 +62,7 @@ make
 
 ---
 
-## `ep3- simulador de escalonadores de processo/`
+## `ep3 - Algoritmos para Alocação de Memória/`
 
 ### O que faz
 Simula políticas e ambientes relacionados à gestão de recursos (escalonamento e comportamento de alocação). Inclui arquivos de trace usados como entradas de teste, por exemplo `trace-bestfit`, `trace-firstfit`, `trace-nextfit` e `trace-worstfit`, que permitem avaliar diferentes estratégias e medir métricas como fragmentação, throughput e latência de alocação.
@@ -78,7 +78,7 @@ Simuladores exigem clareza na modelagem, validação experimental e geração/co
 ### Como compilar/rodar (exemplo)
 
 ```bash
-cd "ep3- simulador de escalonadores de processo"
+cd "ep3 - Algoritmos para Alocação de Memória"
 make
 # executar simulação passando o trace como entrada
 ./ep3 trace-bestfit
